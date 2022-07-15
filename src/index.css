@@ -70,13 +70,13 @@ section >h2{
 
 }
 
-a{
-    color: var(--color-bg-variant);
+a {
+    color: var(--color-primary);
     transition: var(--transition);
 
 }
 
-a:hover{
+a:hover {
     color: var(--color-white);
 }
 
@@ -92,12 +92,16 @@ a:hover{
 
 }
 
-.btn:hover{
-    background:var(--color-white);
+.btn:hover {
+    background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
 }
 
+.btn-primary{
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
 img{
     display: block;
     width: 100%;
