@@ -1,9 +1,77 @@
 import React from 'react'
 import './experience.css'
-
+import {BsPatchCheckFill} from 'react-icons/bs'
 const Experience = () => {
   return (
-    <div>Experience</div>
+        <section id="experience">
+          <h5> The Skills I have </h5>
+          <h2>My experience</h2>
+
+          <div className='container experience__container'>
+            <div className='experience__frontend'>
+                  <h3>Frontend developpment</h3>
+                  <div className='experience__content'>
+                    <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>HTML</h4>
+                              <small className='text-light'>Experienced</small>
+                    </article>
+                    <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>CSS</h4>
+                              <small className='text-light'>Intermediate</small>
+                    </article>          <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>Boostrap</h4>
+                              <small className='text-light'>Experienced</small>
+                    </article>          <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>Tailwind</h4>
+                              <small className='text-light'>Experienced</small>
+                    </article>
+                    <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>React</h4>
+                              <small className='text-light'>Intermediate</small>
+                    </article>
+                    <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>VueJS</h4>
+                              <small className='text-light'>Intermediate</small>
+                    </article>
+                  </div>
+            </div>
+            {/* {end of font end part} */}
+            <div className='experience__backend'>
+               <h3>Backend developpment</h3>
+                  <div className='experience__content'>
+                    <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>NodeJS</h4>
+                              <small className='text-light'>Intermediate</small>
+                    </article>
+                    <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>MongoDB</h4>
+                              <small className='text-light'>Intermediate</small>
+                    </article>          <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>PHP</h4>
+                              <small className='text-light'>Experienced</small>
+                    </article>          <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>MySQL</h4>
+                              <small className='text-light'>Experienced</small>
+                    </article>
+                    <article className='experience__details'>
+                        <BsPatchCheckFill />
+                              <h4>Python</h4>
+                              <small className='text-light'>Intermediate</small>
+                    </article>
+                  </div>
+            </div>
+          </div>
+        </section>
   )
 }
 
