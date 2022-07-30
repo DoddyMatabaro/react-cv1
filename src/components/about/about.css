@@ -4,38 +4,31 @@
     gap: 15%;
 }
 
-.about_me{
+.about__me{
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    background: linear-gradient(45deg,transparent,var(--color-primary), transparent);
     display:grid;
     place-items: center;
 
 }
 
 .about__me-img{
+    /* height: 100%; */
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
 }
-
 .about__me-img:hover{
-    transform: rotate(0);
+    transform: rotate(0) important;
 }
-
 .about__cards{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     gap: 1.5rem;
 }
-
 .about__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
@@ -43,7 +36,7 @@
     text-align: center;
     transition: var(--transition);
     padding: 2rem;
-    text-align: center;
+    text-align: center; 
     transition: var(--transition);
 }
 
@@ -52,13 +45,11 @@
     border-color: var(--color-bg-variant);
     cursor: default;
 }
-
 .about__icon{
     color: var(--color-primary);
     font-size: 1,4rem;
     margin-bottom: 1rem;
 }
-
 .about__card h5{
     font-size: 0.95rem;
 }

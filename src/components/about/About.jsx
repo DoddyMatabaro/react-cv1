@@ -35,8 +35,12 @@ const About = () => {
                     <small>200 Worldwide</small>
                   </article>
               </div>
-              <p>idjskldjlskjlksjjklhajkhfjkdshfjklshadfjkasdhfjklashdfjklhsdjklfhkljsjdfkldshfjsafjsdhfklsdfcjshdskhf
-                lsjkdhflsfhdljkhfdjkhfjksdhfk</p>
+              <p>
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+              </p>
+                <a href='#contact' className="btn btn-primary">Let's Talk</a>
+
           </div>
         </div>
     </section>

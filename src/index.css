@@ -22,7 +22,7 @@
 
     --container-width-lg: 75%;
     --container-width-ml: 86%;
-    --container-width-lg: 90%;
+    --container-width-sm: 90%;
 }
 
 html{
@@ -32,17 +32,15 @@ html{
 ::-webkit-scrollbar{
     display: none;
 }
-
 body{
     font-family: 'Poppins', sans-serif;
     background:var(--color-bg);
     color:var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg.jpg);
+    /* background-image: url(../src/assets/bg.jpg); */
+    background-color: rgb(6, 5, 25);
 }
-
 /* =================Styles generales =================*/
-
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
@@ -67,13 +65,11 @@ section >h2, section >h5{
 
 section >h2{
     color: var(--color-primary);
-
 }
 
-a {
+a{
     color: var(--color-primary);
     transition: var(--transition);
-
 }
 
 a:hover {
@@ -89,7 +85,6 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
-
 }
 
 .btn:hover {
@@ -117,7 +112,6 @@ img{
     section{
         margin-top: 6rem;
     }
-
 }
 
 /* ===================Media querie small devices====================== */
